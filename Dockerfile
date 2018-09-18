@@ -1,5 +1,5 @@
 #build
-FROM golang:1.10 AS build
+FROM golang:1.10
 
 WORKDIR /go/src/github.com/jonnywei/multistage-go
 
